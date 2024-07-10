@@ -16,12 +16,6 @@ jobs:
         env           # Exibe variáveis de ambiente
         java -version # Verifica versão do Java
 
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
     - name: Checkout code
       uses: actions/checkout@v2
 
