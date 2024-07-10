@@ -10,6 +10,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Debug Step
+      run: |
+        ls -l         # Verifica permissões de arquivos
+        env           # Exibe variáveis de ambiente
+        java -version # Verifica versão do Java
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
     - name: Checkout code
       uses: actions/checkout@v2
 
