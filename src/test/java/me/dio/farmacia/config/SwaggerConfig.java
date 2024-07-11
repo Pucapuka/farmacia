@@ -12,8 +12,8 @@ public class SwaggerConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("API de Clientes da Farmácia")
+                        .title("API de Clientes da Farmacia")
                         .version("1.0")
-                        .description("API para gerenciar clientes e cashback de uma farmácia"));
+                        .description("API para gerenciar clientes e cashback de uma farmacia"));
     }
 }
