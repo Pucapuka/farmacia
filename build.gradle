@@ -4,7 +4,7 @@ plugins {
 	id 'io.spring.dependency-management' version '1.1.5'
 }
 
-group = 'me.dio'
+group = 'me.dio.farmacia'
 version = '0.0.1-SNAPSHOT'
 
 java {
@@ -21,6 +21,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springdoc:springdoc-openapi-ui:1.6.14'
+	implementation 'io.springfox:springfox-swagger2:3.0.0'
+    implementation 'io.springfox:springfox-boot-starter:3.0.0'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	runtimeOnly 'com.h2database:h2'
 	runtimeOnly 'org.postgresql:postgresql'
